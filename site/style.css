@@ -1,0 +1,41 @@
+body {
+    font-family: Roboto;
+    background: linear-gradient(to bottom right, #8e44ad, #2c3e50); /* Degradê de roxo para cinza */
+    color: white; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Oculta qualquer conteúdo que se estenda para fora do body */
+}
+
+.container {
+    text-align: center;
+}
+
+img {
+    max-width: 200px;
+    position: absolute;
+    top: 40%; /* Move a imagem um pouco para cima */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    font-size: 18px;
+    position: absolute;
+    top: 55%; /* Move o texto um pouco para cima */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+a {
+    position: absolute;
+    bottom: 400px; /* Distância do link ao fundo */
+    left: -690px; /* Distância do link à esquerda */
+    color: rgb(255, 255, 255); /* Cor cinza */
+    text-decoration: none;
+    font-size: 20px;
+}

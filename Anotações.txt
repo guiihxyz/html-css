@@ -1,0 +1,248 @@
+FOCO!!
+
+repositórios públicos: github.com/gustavoguanabara
+                       gustavoguanabara.github.io
+                    
+não maratone, organize seu horário
+não decore comandos, APRENDA-OS!
+
+a internet veio da arpanet, que foi uma internet criada para centros militares que foi
+se expandindo
+
+a html / as css
+eu DESENVOLVO em html e css / html e css são linguagens de MARCAÇÃO, não PROGRAMAÇÃO
+html - hypertext markup languange / css - cascading style sheets
+
+html: CONTEÚDO (texto, imagens, vídeos, tabelas)
+css: DESIGN (cores, sombras, tamanhos, posicionamento)
+javascript: INTERAÇÕES (menus, animações, popups, validações)
+
+como funciona css:
+
+seletor {
+    declaração: x;
+    propriedade: valor;
+}   
+
+front-end: html, css, javascript
+back-end: php, node.js (javascript), python, c#, rubi, java, etc
+
+marcas html:
+h1 -> título
+p -> parágrafo
+hr -> linha
+br -> quebra de linha
+
+&lt; -> sinal <
+&gt; -> sinal > 
+&reg;
+&copy;
+&trade;
+&euro;
+&cent;
+&yen;
+&pound;
+&Delta;
+&uarr;
+para mais: misksimble (site)
+site de emoji: emojipedia -> seleciona o emoji e vai em technical information, exemplo: &#x2705;
+
+<!-- --> comentário em html
+
+aninhamento é uma coisa dentro da outra, hierarquia
+
+imagens tem direitos autorais, para evitar isto: pesquise  a imagem, clique em ferramentas, direitos de uso, selecione marcadas para reutilização ou com modificação no google, ou use os seguintes sites: unsplash, pexels
+
+manipular imagens de forma legal: aplicativo GIMP
+
+site para icones: iconarchive, favicon.cc, favicon.io
+para colocar, use link:favicon
+
+fique sempre atualizado sobre o html, #semântica
+selecione o texto, aperte ctrl shift p, dps envolope com abreviatura wrap with abrevianton, ai coloca a tag
+
+use sempre as tags strong para dar força/negrito e em para dar enfase/italico, use mark para marcar textos e para mudar a cor use o css ou coloque na tag o style com o seletor background-color, tag del é para texto excluido, ins para texto inserido, sup para texto sobreescrito e sub para subscrito, code é fonte mono espaçada, pre deixa a formatação igual o texto, q é citação simples, blockquote sitação completa, alem disso existe o parametro cite no blockquote, use abbr para abreviações, bdo deixa textos invertidos, ol lista ordenada com li (existe type no ol, use 1 ou A ou I ou i), para nao ordenadas use ul com li, use type para alternar circle disk square, lista de definicios é dl, use dt e dd, a leva a links, importante usar target _blank e o rel external, isso é uma maneira SEMÂNTICA!
+
+link:favicon - favicon
+source:type-media - imagem dinâmica
+strong - negrito
+em - italico 
+mark - marcar texto 
+del - texto excluido 
+ins - texto inserido 
+sup - texto sobreescrito
+sub - texto subscrito 
+code - fonte mono espaçada
+pre - formatação igual o texto 
+q - citação simples 
+blockquote - sitação complexa 
+abbr - abreviações 
+bdo - texto invertido 
+ol - lista ordenada 
+ul - lista não ordenada
+li - complemento para as listas 
+dl - lista de definições
+a - link
+span - parte de um texto, usado para colocar tags em certa parte
+header - cabeçalho (div semântica)
+main - conteúdo principal (div semântica)
+footer - rodapé (div semântica)
+nav - menu (div semântica)
+section - sessão de texto
+article - artigo
+aside - conteúdo relativo ao artigo
+
+use sempre o primeiro em hierarquia de cima pra baixo
+
+audio - áudio (parametro autoplay, controls e loop) mpeg, ogg, wav
+video - vídeo (parametro controls, width e poster)
+vá no vídeo do youtube, clique em compartilhar -> incorporar, clique em copiar e apenas cole em seu html e pronto! também funciona no vimeo
+
+css
+
+modelo de style:
+<style>
+    body {
+        codigos
+    }
+</style>
+
+background-color - muda a cor do fundo
+font-family - muda a fonte
+font-size - muda o tamanho da fonte
+font-weight - peso da fonte (lighter, normal, bold, e bolder)
+font-style - fonte normal ou itálica (normal, italic)
+text-decoration - decoração do texto (underline)
+color - muda a cor
+text-align - muda a posição do texto
+text-indent - parágrafo do texto (use pixels para dar o espaço)
+background-image - degradê (linear-gradient, radial-gradient, combine com o ângulo ou circle, exemplo: 1deg) 
+background-attachment - arruma o attachament (use fixed)
+width - largura
+height - altura
+display - configurar as linhas
+visited - pseudoelemento que verifica se um link ja foi visitado
+active - ativa quando o elemento for ativado (clicado)
+before - pseudoelemento coloca um texto no elemento no inicio dele
+after - pseudoelemento coloca um texto no elemento no fim dele
+content - adiciona uma palavra no elemento por css
+border-style - tipo de borda
+border-width - largura da borda
+border-color - cor da borda
+padding (top, right, bottom, left) - posição interna (sempre nesta ordem, top, right, bottom, left)
+margin - posição externa (use auto para centralizar)
+margin (top, right, bottom, left) - posição externa (sempre nesta ordem, top, right, bottom, left)
+outline-width - largura do outline
+outline-style - estilo do outline
+outline-color - color da outline
+border-image-source - mudar borda para imagem
+border-image-slice - cortar a borda de imagem
+border-image-repet - repetir a borda de imagem
+transition-duration - duração da transição
+columns - número de colunas
+line-height - distância de uma linha e outra
+list-style-position - posição da lista
+list-style-type - marca da lista, podendo trocar por emoji, palavra e etc
+link -> css - abre o código para por o css external no html 
+
+* { /*configuração globais das CSS*/
+    height: 100%;
+}
+
+formas de representação de cores: por nomes, por códigos hexadecimais, por rgb, por hsl
+sites de paleta de cores: https://color.adobe.com/pt/, paletton.com e coolors + skillshare
+safe combinations (fontes) css web safe font combinations (w3schools)
+
+medidas absolutas:
+cm, mm, in (polegada), px, pc
+
+medidas relativas:
+em, ex, rem, vw, vh, %
+
+para font-size é recomendando usar px e em
+16px geralmente = 1em
+shortfont (
+    font-style -> font-weight -> font-size -> font-family
+
+    exemplo
+    font: italic normal 3em Arial, sans-serif;
+)
+
+@import (use o google fonts para facilitar)
+@font-face (fontes externas)
+
+tipos de format()
+    opentype (otf)
+    truetype (ttf)
+    embed-opentype
+    truetype-aat (apple advenced typography)
+    svg
+
+sites para achar fontes de imagens: whatfontis.com, fontquirrel.com e myfonts.com
+
+# - id
+. - class
+: - pseudoclasse (estado, exemplo hover, passa o mouse muda a cor)
+:: - pseudoelemento
+> - children
+
+tag id=""nome" - identificador
+no css fica:
+tag#principal {
+    codigo
+}
+ou apenas #principal
+
+é possivel por id em classes e mais de uma classe em uma unica classe, exemplo:
+id="a" class="b" 
+class="a b
+
+div > p {
+    isso significa paragrafo dentro da div, mexendo apenas nele
+}
+ou apenas
+div p {
+    esse é qualquer p dentro da div
+}
+
+box-level - div
+inline-level - span
+
+user agent é sempre o navegador que está exibindo o conteúdo
+
+shorthands:
+border: 10px solid darkgreen;
+padding: 10px;
+margin: 20px auto 40px auto;
+outline: 10px dashed salmon;
+border-image: url("borda.png") 27 repeat;
+
+site para planejar o site: mockflow
+
+variável em css:
+:root {
+    --cor0: #04BF8A;
+} 
+na prática: 
+background-color: var(--cor0);
+
+forma de manipular um vídeo de forma responsiva:
+div.video {
+    background-color: #025940;
+    border-radius: 15px;
+    margin: 0 -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+git - repositório local
+github - repositório remoto (push)
