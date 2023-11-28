@@ -116,8 +116,11 @@ text-decoration - decoração do texto (underline)
 color - muda a cor
 text-align - muda a posição do texto
 text-indent - parágrafo do texto (use pixels para dar o espaço)
-background-image - degradê (linear-gradient, radial-gradient, combine com o ângulo ou circle, exemplo: 1deg) 
+background-image - degradê (linear-gradient, radial-gradient, combine com o ângulo ou circle, exemplo: 1deg e url) 
 background-attachment - arruma o attachament (use fixed)
+background-size - tamanho do background
+background-repeat - repetição do background
+background-position - posição do background
 width - largura
 height - altura
 display - configurar as linhas
