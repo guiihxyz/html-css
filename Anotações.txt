@@ -116,8 +116,8 @@ text-decoration - decoração do texto (underline)
 color - muda a cor
 text-align - muda a posição do texto
 text-indent - parágrafo do texto (use pixels para dar o espaço)
-background-image - degradê (linear-gradient, radial-gradient, combine com o ângulo ou circle, exemplo: 1deg e url) 
-background-attachment - arruma o attachament (use fixed)
+background-image - degradê (linear-gradient, radial-gradient, combine com o ângulo ou circle, exemplo: 1deg e url)
+background-attachment - arruma o attachment, um exemplo é o site rolar e o background continuar parado (fixed)
 background-size - tamanho do background
 background-repeat - repetição do background
 background-position - posição do background
@@ -219,6 +219,7 @@ padding: 10px;
 margin: 20px auto 40px auto;
 outline: 10px dashed salmon;
 border-image: url("borda.png") 27 repeat;
+background: background: black url("images/wallpaper002.jpg") center center no-repeat cover fixed; (color, image, position, repeat, [size], attachment) observação: o size não funciona no shorthand, mas segundo a explicação do html diz que aceita
 
 site para planejar o site: mockflow
 
