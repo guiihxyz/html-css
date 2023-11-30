@@ -146,6 +146,8 @@ columns - número de colunas
 line-height - distância de uma linha e outra
 list-style-position - posição da lista
 list-style-type - marca da lista, podendo trocar por emoji, palavra e etc
+text-transform - transformação do texto
+font-variant - variação do texto
 link -> css - abre o código para por o css external no html 
 
 * { /*configuração globais das CSS*/
