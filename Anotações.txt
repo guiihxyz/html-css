@@ -250,3 +250,9 @@ div.video > iframe {
 
 git - repositório local
 github - repositório remoto (push)
+
+centralizando horizontalmente e verticalmente uma caixa:
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
