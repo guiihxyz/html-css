@@ -92,6 +92,23 @@ section - sessão de texto
 article - artigo
 aside - conteúdo relativo ao artigo
 
+hierarquia de tabelas simples:
+    table - tabela
+        table rows - linha de tabela (tr)
+            table header - cabeçalho de tabela
+            table data - dados da tabela (td)
+
+hierarquia de tabelas grandes:  
+    caption - legenda
+    table - tabela
+        thead
+            tr, td, th
+        tbody
+            tr, td th
+        tfoot
+            tr, td, th
+
+
 use sempre o primeiro em hierarquia de cima pra baixo
 
 audio - áudio (parametro autoplay, controls e loop) mpeg, ogg, wav
@@ -141,6 +158,7 @@ outline-color - color da outline
 border-image-source - mudar borda para imagem
 border-image-slice - cortar a borda de imagem
 border-image-repet - repetir a borda de imagem
+border-collapse - borda separada ou junta
 transition-duration - duração da transição
 columns - número de colunas
 line-height - distância de uma linha e outra
@@ -148,6 +166,7 @@ list-style-position - posição da lista
 list-style-type - marca da lista, podendo trocar por emoji, palavra e etc
 text-transform - transformação do texto
 font-variant - variação do texto
+vertical-align: alinhamento vertical (top, middle, bottom)
 link -> css - abre o código para por o css external no html 
 
 * { /*configuração globais das CSS*/
@@ -258,3 +277,5 @@ centralizando horizontalmente e verticalmente uma caixa:
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+você não pode usar tabela para criar a estrutura do seu site!
