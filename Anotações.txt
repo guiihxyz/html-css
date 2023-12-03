@@ -107,7 +107,7 @@ hierarquia de tabelas grandes:
             tr, td th
         tfoot
             tr, td, th
-
+use e abuse do colspan e rowspan!
 
 use sempre o primeiro em hierarquia de cima pra baixo
 
@@ -279,3 +279,5 @@ centralizando horizontalmente e verticalmente uma caixa:
     transform: translate(-50%, -50%);
 
 você não pode usar tabela para criar a estrutura do seu site!
+
+:nth-child(2n-1) - código que pula os elementos de 2 em 2, exemplo: efeito zebrado
