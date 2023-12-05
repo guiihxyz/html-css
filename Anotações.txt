@@ -61,7 +61,7 @@ para colocar, use link:favicon
 fique sempre atualizado sobre o html, #semântica
 selecione o texto, aperte ctrl shift p, dps envolope com abreviatura wrap with abrevianton, ai coloca a tag
 
-use sempre as tags strong para dar força/negrito e em para dar enfase/italico, use mark para marcar textos e para mudar a cor use o css ou coloque na tag o style com o seletor background-color, tag del é para texto excluido, ins para texto inserido, sup para texto sobreescrito e sub para subscrito, code é fonte mono espaçada, pre deixa a formatação igual o texto, q é citação simples, blockquote sitação completa, alem disso existe o parametro cite no blockquote, use abbr para abreviações, bdo deixa textos invertidos, ol lista ordenada com li (existe type no ol, use 1 ou A ou I ou i), para nao ordenadas use ul com li, use type para alternar circle disk square, lista de definicios é dl, use dt e dd, a leva a links, importante usar target _blank e o rel external, isso é uma maneira SEMÂNTICA!
+use sempre as tags strong para dar força/negrito e em para dar enfase/italico, use mark para marcar textos e para mudar a cor use o css ou coloque na tag o style com o seletor background-color, tag del é para texto excluido, ins para texto inserido, sup para texto sobreescrito e sub para subscrito, code é fonte mono espaçada, pre deixa a formatação igual o texto, q é citação simples, blockquote sitação completa, alem disso existe o parametro cite no blockquote, use abbr para abreviações, bdo deixa textos invertidos, ol lista ordenada com li (existe type no ol, use 1 ou A ou I ou i), para nao ordenadas use ul com li, use type para alternar circle disk square, lista de definicios é dl, use dt e dd, a leva a links, importante usar target _blank, rel external ou o nome do objeto, isso é uma maneira SEMÂNTICA!
 
 link:favicon - favicon
 source:type-media - imagem dinâmica
@@ -91,6 +91,7 @@ nav - menu (div semântica)
 section - sessão de texto
 article - artigo
 aside - conteúdo relativo ao artigo
+iframe - frame de site
 
 hierarquia de tabelas simples:
     table - tabela
@@ -282,3 +283,5 @@ centralizando horizontalmente e verticalmente uma caixa:
 você não pode usar tabela para criar a estrutura do seu site!
 
 :nth-child(2n-1) - código que pula os elementos de 2 em 2, exemplo: efeito zebrado
+
+tamanho padrão de um iframe: 300x150px
