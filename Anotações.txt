@@ -159,6 +159,7 @@ outline-color - color da outline
 border-image-source - mudar borda para imagem
 border-image-slice - cortar a borda de imagem
 border-image-repet - repetir a borda de imagem
+box-sizing - tamnho da borda (border-box)
 border-collapse - borda separada ou junta
 transition-duration - duração da transição
 columns - número de colunas
@@ -285,3 +286,8 @@ você não pode usar tabela para criar a estrutura do seu site!
 :nth-child(2n-1) - código que pula os elementos de 2 em 2, exemplo: efeito zebrado
 
 tamanho padrão de um iframe: 300x150px
+
+::-webkit-scrollbar {
+            width: 0px;
+            height: 0px; isso remove a barra de rolagem
+        }
