@@ -88,10 +88,11 @@ header - cabeçalho (div semântica)
 main - conteúdo principal (div semântica)
 footer - rodapé (div semântica)
 nav - menu (div semântica)
-section - sessão de texto
+section - sessão de conteúdo
 article - artigo
 aside - conteúdo relativo ao artigo
 iframe - frame de site
+form - cria um formulário
 
 hierarquia de tabelas simples:
     table - tabela
@@ -290,4 +291,7 @@ tamanho padrão de um iframe: 300x150px
 ::-webkit-scrollbar {
             width: 0px;
             height: 0px; isso remove a barra de rolagem
-        }
+}
+
+name: útil para html e php
+id: útil para javascript e label
