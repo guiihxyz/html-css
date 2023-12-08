@@ -94,6 +94,12 @@ aside - conteúdo relativo ao artigo
 iframe - frame de site
 form - cria um formulário
 
+inputs:
+text - caixa de texto
+password - caixa de senha
+submit - botão de submitar (enviar)
+reset - botão de limpar (resetar o que foi colocado nos outros inputs)
+
 hierarquia de tabelas simples:
     table - tabela
         table rows - linha de tabela (tr)
@@ -295,3 +301,7 @@ tamanho padrão de um iframe: 300x150px
 
 name: útil para html e php
 id: útil para javascript e label
+
+metódos de envio de formulário: get e post
+get - utilizado em dados quando não for sensíveis, (nome, peso, busca) - url compartilhavel - até 3000 bytes (3000 letras)
+post - campo sensíveis, envio de fotos e envio de arquivos (senha, cartão, cep) - url não compartilhavel - mais de 3000 bytes 
