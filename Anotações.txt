@@ -99,6 +99,19 @@ text - caixa de texto
 password - caixa de senha
 submit - botão de submitar (enviar)
 reset - botão de limpar (resetar o que foi colocado nos outros inputs)
+number - caixa de número
+month - caixa de mês e ano
+date - caixa de dia, mês e ano
+time - caixa de horário
+email - caixa de email
+tel - caixa de telefone
+checkbox - marcar caixa (pode marcar várias, o quadrado)
+radio - marcar caixa (apenas uma, o circulo)
+fieldset - agrupamento de campos (assuntos)
+legend - legenda
+color - seletor de cores
+range - bolinha para selecionar um nível (retorna um número de 0 a 100 por padrão)
+file - visitante do site selecionar um arquivo para enviar (obrigatório usar o método post)
 
 hierarquia de tabelas simples:
     table - tabela
@@ -304,4 +317,18 @@ id: útil para javascript e label
 
 metódos de envio de formulário: get e post
 get - utilizado em dados quando não for sensíveis, (nome, peso, busca) - url compartilhavel - até 3000 bytes (3000 letras)
-post - campo sensíveis, envio de fotos e envio de arquivos (senha, cartão, cep) - url não compartilhavel - mais de 3000 bytes 
+post - campo sensíveis, envio de fotos e envio de arquivos (senha, cartão, cep) - url não compartilhavel - mais de 3000 bytes
+
+formulários:
+minlenght - mínimo de caractéres
+min - mínimo de números
+maxlenght - máximo de caractéres
+max - máximo de números
+required - obrigatório preencher
+value - valor já predefinido
+placeholder - sugestão de texto na caixa
+autocomplete - completar o texto com sugestões do próprio navegador
+pattern - formato obrigatório (RegEx)
+checked - já irá vir marcado
+
+usar o mesmo nome em input radios faz poder marcar apenas um deles
