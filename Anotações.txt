@@ -113,6 +113,12 @@ color - seletor de cores
 range - bolinha para selecionar um nível (retorna um número de 0 a 100 por padrão)
 file - visitante do site selecionar um arquivo para enviar (obrigatório usar o método post)
 
+select - lista para selecionar
+option - opções dentro da lista do select
+optgroup - grupo de options, podendo usar um atributo label, sendo uma "legenda"
+datalist - lista que serve como "recomendações", podendo seleciona-las no texto, usando o atributo list
+textarea - área de texto grande (recomendado usar o método post)
+
 hierarquia de tabelas simples:
     table - tabela
         table rows - linha de tabela (tr)
@@ -330,5 +336,7 @@ placeholder - sugestão de texto na caixa
 autocomplete - completar o texto com sugestões do próprio navegador
 pattern - formato obrigatório (RegEx)
 checked - já irá vir marcado
+selected - opção já selecionada em um select
+list - selecionar uma lista para a caixa
 
 usar o mesmo nome em input radios faz poder marcar apenas um deles
