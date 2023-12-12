@@ -93,6 +93,7 @@ article - artigo
 aside - conteúdo relativo ao artigo
 iframe - frame de site
 form - cria um formulário
+menu - menu semântico
 
 inputs:
 text - caixa de texto
@@ -167,7 +168,7 @@ background-repeat - repetição do background
 background-position - posição do background
 width - largura
 height - altura
-display - configurar as linhas
+display - configuração do display
 visited - pseudoelemento que verifica se um link ja foi visitado
 active - ativa quando o elemento for ativado (clicado)
 before - pseudoelemento coloca um texto no elemento no inicio dele
@@ -341,3 +342,10 @@ selected - opção já selecionada em um select
 list - selecionar uma lista para a caixa
 
 usar o mesmo nome em input radios faz poder marcar apenas um deles
+
+tipos de media types:
+all - tudo
+screen - qualquer tela
+    media features - and (orientation:portrait) retrato
+    media features - and (orientation:landscape) paisagem
+print - impressora
