@@ -349,3 +349,11 @@ screen - qualquer tela
     media features - and (orientation:portrait) retrato
     media features - and (orientation:landscape) paisagem
 print - impressora
+
+definição de media dentro de vários arquivos css:
+    <link rel="stylesheet" href="styles/retrato.css" media="screen and (orientation:portrait)">
+
+definição de media dentro de um único css:
+    @media screen and (orientation: orientação_aqui) {
+        código aqui
+    }
