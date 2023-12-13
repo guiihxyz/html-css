@@ -357,3 +357,16 @@ definição de media dentro de um único css:
     @media screen and (orientation: orientação_aqui) {
         código aqui
     }
+
+site 100% sem ter barra de rolagem:
+    html {
+        width: 100vw;
+        height: 100vh;
+    }
+
+typical device breakpoints (recomendações do w3c):
+pequenas telas: até 600px
+celular: de 600px até 768px
+tablet: 768px até 992px
+desktop: 992px até 1200px
+grandes telas: acima de 1200px
