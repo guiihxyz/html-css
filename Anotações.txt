@@ -94,6 +94,7 @@ aside - conteúdo relativo ao artigo
 iframe - frame de site
 form - cria um formulário
 menu - menu semântico
+output - calcula e mostra coisas na tela (não envia)
 
 inputs:
 text - caixa de texto
@@ -189,6 +190,7 @@ border-image-repet - repetir a borda de imagem
 box-sizing - tamnho da borda (border-box)
 border-collapse - borda separada ou junta
 transition-duration - duração da transição
+transition-timing-function - suavização da transição
 columns - número de colunas
 line-height - distância de uma linha e outra
 list-style-position - posição da lista
@@ -198,7 +200,6 @@ font-variant - variação do texto
 vertical-align - alinhamento vertical (top, middle, bottom)
 overflow (x/y) - cria uma rolagem apenas em baixo do conteúdo selecionado
 link -> css - abre o código para por o css external no html
-output - calcula e mostra coisas na tela (não envia)
 
 * { /*configuração globais das CSS*/
     height: 100%;
@@ -370,3 +371,5 @@ celular: de 600px até 768px
 tablet: 768px até 992px
 desktop: 992px até 1200px
 grandes telas: acima de 1200px
+
+transform e transition devem ser sempre os últimos no código para não ter nenhum erro de compatibilidade!
