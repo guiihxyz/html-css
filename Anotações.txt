@@ -373,3 +373,6 @@ desktop: 992px até 1200px
 grandes telas: acima de 1200px
 
 transform e transition devem ser sempre os últimos no código para não ter nenhum erro de compatibilidade!
+
+display flex:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/

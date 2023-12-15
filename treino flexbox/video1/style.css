@@ -1,0 +1,33 @@
+body {
+    padding: 5px
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 25px;
+    column-gap: 15px;
+    /* gap: 70px 20px; */
+    /* flex-flow row wrap */
+    /* justify-content: space-around;
+    align-items: center; */
+    padding: 5px;
+    height: 100vh;
+    border: 2px solid black;
+}
+
+.flexbox {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 140px;
+    height: 140px;
+    background-color: gray;
+    font-size: 2em;
+    font-family: system-ui, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+}
