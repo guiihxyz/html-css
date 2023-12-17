@@ -199,6 +199,7 @@ text-transform - transformação do texto
 font-variant - variação do texto
 vertical-align - alinhamento vertical (top, middle, bottom)
 overflow (x/y) - cria uma rolagem apenas em baixo do conteúdo selecionado
+object-fit - muda proporção da imagem (cover)
 link -> css - abre o código para por o css external no html
 
 * { /*configuração globais das CSS*/
